@@ -1,0 +1,288 @@
+shared_focus = {
+	id = POE_tno_osnovanie_knyazhestva
+	icon = GFX_POE_osnovanie_knyazhestva
+	cost = 2
+	x = 5
+	y = 0
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = POE_tno_utverzhdenie_vlasti
+	icon = GFX_POE_utverzhdenie_vlasti
+	cost = 2
+	prerequisite = {
+	focus = POE_tno_osnovanie_knyazhestva
+	}
+	x = 5
+	y = 1
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = POE_tno_poddanyie_knyagini
+	icon = GFX_POE_poddanyie_knyagini
+	cost = 2
+	prerequisite = {
+	focus = POE_tno_utverzhdenie_vlasti
+	}
+	x = 3
+	y = 2
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = POE_tno_boyarskaya_duma
+	icon = GFX_POE_boyarskaya_duma
+	cost = 2
+	prerequisite = {
+	focus = POE_tno_utverzhdenie_vlasti
+	}
+	x = 5
+	y = 2
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = POE_tno_druzhina_knyagini
+	icon = GFX_POE_druzhina_knyagini
+	cost = 2
+	prerequisite = {
+	focus = POE_tno_utverzhdenie_vlasti
+	}
+	x = 7
+	y = 2
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = POE_tno_remeslenniki
+	icon = GFX_POE_remeslenniki
+	cost = 2
+	prerequisite = {
+	focus = POE_tno_poddanyie_knyagini
+	}
+	x = 3
+	y = 3
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = POE_tno_severyanskaya_belaya_emigraciya
+	icon = GFX_POE_severyanskaya_belaya_emigraciya
+	cost = 2
+	prerequisite = {
+	focus = POE_tno_boyarskaya_duma
+	}
+	x = 5
+	y = 3
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = POE_tno_opyitnyie_i_boesposobnyie
+	icon = GFX_POE_opyitnyie_i_boesposobnyie
+	cost = 2
+	prerequisite = {
+	focus = POE_tno_druzhina_knyagini
+	}
+	x = 7
+	y = 3
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = POE_tno_bogatoe_kupechestvo
+	icon = GFX_POE_bogatoe_kupechestvo
+	cost = 2
+	prerequisite = {
+	focus = POE_tno_remeslenniki
+	}
+	x = 2
+	y = 4
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = POE_tno_obeschaniya_i_dogovoryi
+	icon = GFX_POE_obeschaniya_i_dogovoryi
+	cost = 2
+	prerequisite = {
+	focus = POE_tno_remeslenniki
+	}
+	prerequisite = {
+	focus = POE_tno_severyanskaya_belaya_emigraciya
+	}
+	x = 4
+	y = 4
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = POE_tno_umelyie_polkovodcyi
+	icon = GFX_POE_umelyie_polkovodcyi
+	cost = 2
+	prerequisite = {
+	focus = POE_tno_severyanskaya_belaya_emigraciya
+	}
+	prerequisite = {
+	focus = POE_tno_opyitnyie_i_boesposobnyie
+	}
+	x = 6
+	y = 4
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = POE_tno_vooruzhenyi_i_opasnyi
+	icon = GFX_POE_vooruzhenyi_i_opasnyi
+	cost = 2
+	prerequisite = {
+	focus = POE_tno_opyitnyie_i_boesposobnyie
+	}
+	x = 8
+	y = 4
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = POE_tno_prod_pomosch
+	icon = GFX_POE_prod_pomosch
+	cost = 2
+	prerequisite = {
+	focus = POE_tno_bogatoe_kupechestvo
+	}
+	prerequisite = {
+	focus = POE_tno_obeschaniya_i_dogovoryi
+	}
+	x = 3
+	y = 5
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = POE_tno_velikoe_proshloe
+	icon = GFX_POE_velikoe_proshloe
+	cost = 2
+	prerequisite = {
+	focus = POE_tno_severyanskaya_belaya_emigraciya
+	}
+	x = 5
+	y = 5
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = POE_tno_nasha_gordost
+	icon = GFX_POE_tno_nasha_gordost
+	cost = 2
+	prerequisite = {
+	focus = POE_tno_umelyie_polkovodcyi
+	}
+	prerequisite = {
+	focus = POE_tno_vooruzhenyi_i_opasnyi
+	}
+	x = 7
+	y = 5
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = POE_tno_osvobozhdenie_kanterlota
+	icon = GFX_POE_osvobozhdenie_kanterlota
+	cost = 2
+	prerequisite = {
+	focus = POE_tno_prod_pomosch
+	}
+	prerequisite = {
+	focus = POE_tno_velikoe_proshloe
+	}
+	prerequisite = {
+	focus = POE_tno_nasha_gordost
+	}
+	x = 5
+	y = 6
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = POE_tno_bezumcam_golovu_s_plech
+	icon = GFX_POE_bezumcam_golovu_s_plech
+	cost = 2
+	prerequisite = {
+	focus = POE_tno_osvobozhdenie_kanterlota
+	}
+	x = 3
+	y = 7
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = POE_tno_chuzhdaya_kultura
+	icon = GFX_POE_chuzhdaya_kultura
+	cost = 2
+	prerequisite = {
+	focus = POE_tno_osvobozhdenie_kanterlota
+	}
+	x = 5
+	y = 7
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = POE_tno_lish_skazki
+	icon = GFX_POE_lish_skazki
+	cost = 2
+	prerequisite = {
+	focus = POE_tno_osvobozhdenie_kanterlota
+	}
+	x = 7
+	y = 7
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = POE_tno_novoe_dvoryanstvo
+	icon = GFX_POE_novoe_dvoryanstvo
+	cost = 2
+	prerequisite = {
+	focus = POE_tno_bezumcam_golovu_s_plech
+	}
+	prerequisite = {
+	focus = POE_tno_chuzhdaya_kultura
+	}
+	x = 4
+	y = 8
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = POE_tno_prezhnie_krestyane
+	icon = GFX_POE_prezhnie_krestyane
+	cost = 2
+	prerequisite = {
+	focus = POE_tno_chuzhdaya_kultura
+	}
+	prerequisite = {
+	focus = POE_tno_lish_skazki
+	}
+	x = 6
+	y = 8
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = POE_tno_koronaciya
+	icon = GFX_POE_koronaciya
+	cost = 2
+	prerequisite = {
+	focus = POE_tno_novoe_dvoryanstvo
+	}
+	prerequisite = {
+	focus = POE_tno_prezhnie_krestyane
+	}
+	x = 5
+	y = 9
+	hidden_effect = {
+	}
+}

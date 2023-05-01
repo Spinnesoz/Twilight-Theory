@@ -1,0 +1,35 @@
+focus_tree = {
+	id = EUS_tree_1
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 15
+			tag = EUS
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 550 y = 3000 }
+	
+		
+	shared_focus = EUS_tno_unser_grosser_erfolg
+}
+
+focus_tree = {
+	id = EUS_tree_2
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 15
+			tag = EUS
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 550 y = 3000 }
+	
+		
+	shared_focus = EUS_tno_alte_manieren
+}

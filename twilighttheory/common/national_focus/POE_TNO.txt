@@ -1,0 +1,17 @@
+focus_tree = {
+	id = POE_tree_1
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 15
+			tag = POE
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 550 y = 3000 }
+	
+		
+	shared_focus = POE_tno_osnovanie_knyazhestva
+}

@@ -1,0 +1,646 @@
+shared_focus = {
+	id = EUS_tno_unser_grosser_erfolg
+	icon = GFX_EUS_tno_unser_grosser_erfolg
+	cost = 2
+	x = 5
+	y = 0
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_governance_ist_nicht_fur_unter
+	icon = GFX_EUS_tno_governance_ist_nicht_fur_unter
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_unser_grosser_erfolg
+	}
+	x = 5
+	y = 1
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_mein_reichtum
+	icon = GFX_EUS_tno_mein_reichtum
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_governance_ist_nicht_fur_unter
+	}
+	x = 3
+	y = 2
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_magie_dominion
+	icon = GFX_EUS_tno_magie_dominion
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_governance_ist_nicht_fur_unter
+	}
+	x = 5
+	y = 2
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_tod_fur_gastgeberin
+	icon = GFX_EUS_tno_tod_fur_gastgeberin
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_governance_ist_nicht_fur_unter
+	}
+	x = 7
+	y = 2
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_meine_fabriken
+	icon = GFX_EUS_tno_meine_fabriken
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_mein_reichtum
+	}
+	prerequisite = {
+	focus = EUS_tno_magie_dominion
+	}
+	x = 3
+	y = 3
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_gute_gonner
+	icon = GFX_EUS_tno_gute_gonner
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_magie_dominion
+	}
+	x = 5
+	y = 3
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_magische_abfuhr
+	icon = GFX_EUS_tno_magische_abfuhr
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_magie_dominion
+	}
+	prerequisite = {
+	focus = EUS_tno_tod_fur_gastgeberin
+	}
+	x = 7
+	y = 3
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_meine_mineralien
+	icon = GFX_EUS_tno_meine_mineralien
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_meine_fabriken
+	}
+	x = 2
+	y = 4
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_nicht_werwolfe
+	icon = GFX_EUS_tno_nicht_werwolfe
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_meine_fabriken
+	}
+	prerequisite = {
+	focus = EUS_tno_gute_gonner
+	}
+	x = 4
+	y = 4
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_kleine_garnison
+	icon = GFX_EUS_tno_kleine_garnison
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_gute_gonner
+	}
+	prerequisite = {
+	focus = EUS_tno_magische_abfuhr
+	}
+	x = 6
+	y = 4
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_welle_des_fleisches
+	icon = GFX_EUS_tno_welle_des_fleisches
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_magische_abfuhr
+	}
+	x = 8
+	y = 4
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_nutzlicher_austausch
+	icon = GFX_EUS_tno_nutzlicher_austausch
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_meine_mineralien
+	}
+	prerequisite = {
+	focus = EUS_tno_nicht_werwolfe
+	}
+	x = 3
+	y = 5
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_gute_ideen
+	icon = GFX_EUS_tno_gute_ideen
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_gute_gonner
+	}
+	x = 5
+	y = 5
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_keine_auffuhrungen
+	icon = GFX_EUS_tno_keine_auffuhrungen
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_kleine_garnison
+	}
+	prerequisite = {
+	focus = EUS_tno_welle_des_fleisches
+	}
+	x = 7
+	y = 5
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_canterlot_aufraumen
+	icon = GFX_EUS_tno_canterlot_aufraumen
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_nutzlicher_austausch
+	}
+	prerequisite = {
+	focus = EUS_tno_gute_ideen
+	}
+	prerequisite = {
+	focus = EUS_tno_keine_auffuhrungen
+	}
+	x = 5
+	y = 6
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_oberhaupt_falschmonarchen
+	icon = GFX_EUS_tno_oberhaupt_falschmonarchen
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_canterlot_aufraumen
+	}
+	x = 3
+	y = 7
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_krawatte_fur_rot
+	icon = GFX_EUS_krawatte_fur_rot
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_canterlot_aufraumen
+	}
+	x = 5
+	y = 7
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_beschnittene_saiten
+	icon = GFX_EUS_beschnittene_saiten
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_canterlot_aufraumen
+	}
+	x = 7
+	y = 7
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_einhorner
+	icon = GFX_EUS_einhorner
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_oberhaupt_falschmonarchen
+	}
+	prerequisite = {
+	focus = EUS_tno_krawatte_fur_rot
+	}
+	x = 4
+	y = 8
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_unterpony
+	icon = GFX_EUS_unterpony
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_krawatte_fur_rot
+	}
+	prerequisite = {
+	focus = EUS_tno_beschnittene_saiten
+	}
+	x = 6
+	y = 8
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_tno
+	icon = GFX_EUS_tno
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_einhorner
+	}
+	prerequisite = {
+	focus = EUS_tno_unterpony
+	}
+	x = 5
+	y = 9
+	hidden_effect = {
+	}
+}
+
+shared_focus = {
+	id = EUS_tno_alte_manieren
+	icon = GFX_EUS_alte_manieren
+	cost = 2
+	x = 7
+	y = 1
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_grosse_dankbarkeit
+	icon = GFX_EUS_grosse_dankbarkeit
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_alte_manieren
+	}
+	x = 7
+	y = 2
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_befullung_des_staatsapparates
+	icon = GFX_EUS_befullung_des_staatsapparates
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_grosse_dankbarkeit
+	}
+	x = 5
+	y = 3
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_errettung_nur_der_wurdigen
+	icon = GFX_EUS_errettung_nur_der_wurdigen
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_grosse_dankbarkeit
+	}
+	x = 7
+	y = 3
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_intensive_zusammenarbeit
+	icon = GFX_EUS_intensive_zusammenarbeit
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_grosse_dankbarkeit
+	}
+	x = 11
+	y = 3
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_industrielle_steuerung
+	icon = GFX_EUS_industrielle_steuerung
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_befullung_des_staatsapparates
+	}
+	x = 3
+	y = 4
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_besanftige_die_ponys
+	icon = GFX_EUS_besanftige_die_ponys
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_befullung_des_staatsapparates
+	}
+	prerequisite = {
+	focus = EUS_tno_errettung_nur_der_wurdigen
+	}
+	x = 6
+	y = 4
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_hilfe_bei_der_aufrechterhaltung_der_kontrolle
+	icon = GFX_EUS_hilfe_bei_der_aufrechterhaltung_der_kontrolle
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_intensive_zusammenarbeit
+	}
+	x = 11
+	y = 4
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_reichtum_fur_reichtum
+	icon = GFX_EUS_reichtum_fur_reichtum
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_intensive_zusammenarbeit
+	}
+	x = 13
+	y = 4
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_landwirtschaftliche_wachter
+	icon = GFX_EUS_landwirtschaftliche_wachter
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_industrielle_steuerung
+	}
+	x = 1
+	y = 5
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_kapitalisten_mit_hornern
+	icon = GFX_EUS_kapitalisten_mit_hornern
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_industrielle_steuerung
+	}
+	x = 3
+	y = 5
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_einhorn_hilfsprogramm
+	icon = GFX_EUS_einhorn_hilfsprogramm
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_besanftige_die_ponys
+	}
+	x = 5
+	y = 5
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_nicht_jedem_geht_es_gut
+	icon = GFX_EUS_nicht_jedem_geht_es_gut
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_besanftige_die_ponys
+	}
+	x = 7
+	y = 5
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_technologieaustausch
+	icon = GFX_EUS_technologieaustausch
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_hilfe_bei_der_aufrechterhaltung_der_kontrolle
+	}
+	x = 11
+	y = 5
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_unser_grosser_absatzmarkt
+	icon = GFX_EUS_unser_grosser_absatzmarkt
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_reichtum_fur_reichtum
+	}
+	x = 13
+	y = 5
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_gewohnlicher_viehbestand
+	icon = GFX_EUS_gewohnlicher_viehbestand
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_landwirtschaftliche_wachter
+	}
+	x = 1
+	y = 6
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_die_magische_methode
+	icon = GFX_EUS_die_magische_methode
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_kapitalisten_mit_hornern
+	}
+	x = 3
+	y = 6
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_soziale_garantien_nur_fur_ihre_eigenen
+	icon = GFX_EUS_soziale_garantien_nur_fur_ihre_eigenen
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_einhorn_hilfsprogramm
+	}
+	x = 5
+	y = 6
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_fliegen_und_krabbeln
+	icon = GFX_EUS_fliegen_und_krabbeln
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_nicht_jedem_geht_es_gut
+	}
+	x = 7
+	y = 6
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_liebe_fur_schulden
+	icon = GFX_EUS_liebe_fur_schulden
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_nicht_jedem_geht_es_gut
+	}
+	prerequisite = {
+	focus = EUS_tno_technologieaustausch
+	}
+	x = 9
+	y = 6
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_unternehmen_in_uns
+	icon = GFX_EUS_unternehmen_in_uns
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_technologieaustausch
+	}
+	prerequisite = {
+	focus = EUS_tno_unser_grosser_absatzmarkt
+	}
+	x = 11
+	y = 6
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_maximierung_der_produktion
+	icon = GFX_EUS_maximierung_der_produktion
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_gewohnlicher_viehbestand
+	}
+	prerequisite = {
+	focus = EUS_tno_die_magische_methode
+	}
+	x = 2
+	y = 7
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_wirtschaftliche_geiseln
+	icon = GFX_EUS_wirtschaftliche_geiseln
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_die_magische_methode
+	}
+	prerequisite = {
+	focus = EUS_tno_fliegen_und_krabbeln
+	}
+	x = 4
+	y = 7
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_politische_geiseln
+	icon = GFX_EUS_politische_geiseln
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_liebe_fur_schulden
+	}
+	prerequisite = {
+	focus = EUS_tno_unternehmen_in_uns
+	}
+	x = 10
+	y = 7
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_mit_einem_wort_sklaven
+	icon = GFX_EUS_mit_einem_wort_sklaven
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_wirtschaftliche_geiseln
+	}
+	prerequisite = {
+	focus = EUS_tno_fliegen_und_krabbeln
+	}
+	prerequisite = {
+	focus = EUS_tno_politische_geiseln
+	}
+	x = 7
+	y = 8
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_0
+	icon = GFX_EUS_0
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_soziale_garantien_nur_fur_ihre_eigenen
+	}
+	prerequisite = {
+	focus = EUS_tno_mit_einem_wort_sklaven
+	}
+	x = 5
+	y = 9
+	hidden_effect = {
+	}
+}
+shared_focus = {
+	id = EUS_tno_00
+	icon = GFX_EUS_00
+	cost = 2
+	prerequisite = {
+	focus = EUS_tno_liebe_fur_schulden
+	}
+	prerequisite = {
+	focus = EUS_tno_mit_einem_wort_sklaven
+	}
+	x = 9
+	y = 9
+	hidden_effect = {
+	}
+}
